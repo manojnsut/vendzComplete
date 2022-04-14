@@ -201,7 +201,7 @@ const ProductContainer = (props) => {
         <SafeAreaView>
             <View style={{ alignSelf: "center", marginTop: height / 3 }}>
                 <ActivityIndicator style={{ margin: 10 }} size="large" color="blue" />
-                <Text note>Loading Products...</Text>
+                <Text note>Loading All Products...</Text>
             </View>
         </SafeAreaView>
     ) : (

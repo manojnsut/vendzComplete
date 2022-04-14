@@ -120,6 +120,14 @@ export default function UserDetail(props) {
                             style={styles.listItemStyle}
                             containerStyle={{ borderRadius: 10 }}
                         >
+                            <ListItem.Subtitle style={{ fontSize: 10 }}>Location</ListItem.Subtitle>
+                            <ListItem.Title>{user.locality} , {user.city}</ListItem.Title>
+                        </ListItem>
+
+                        <ListItem
+                            style={styles.listItemStyle}
+                            containerStyle={{ borderRadius: 10 }}
+                        >
                             <ListItem.Subtitle style={{ fontSize: 10 }}>
                                 Contact :
                             </ListItem.Subtitle>
